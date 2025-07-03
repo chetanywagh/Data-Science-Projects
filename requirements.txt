@@ -6,5 +6,4 @@ wordcloud
 nltk
 textblob
 scikit-learn
-fsspec
 
