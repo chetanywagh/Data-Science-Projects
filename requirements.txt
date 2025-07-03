@@ -1,6 +1,6 @@
 streamlit
 pickle
-wordpickle
+cloudpickle
 pandas
 matplotlib
 wordcloud
