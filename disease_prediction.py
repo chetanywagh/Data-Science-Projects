@@ -22,12 +22,12 @@ def clean_text(text):
 
 tab0, tab1 = st.tabs(["WordCloud","Predict Disease"])
 
-text_df = pd.read_csv("E:\wordcloud.csv")
+text_df = pd.read_csv("C://Users//Lenovo//OneDrive\Desktop//project Deployment Excelr//Drug_classification ExcelR Project//wordcloud (1).csv")
 
-with open("E://tfidf_vector.pkl", 'rb') as file:
+with open("C://Users//Lenovo//OneDrive\Desktop//project Deployment Excelr//Drug_classification ExcelR Project//tfidf_vector.pkl", 'rb') as file:
     tfidf_vect = pickle.load(file)
 
-with open('E://disease_model.pkl', 'rb') as file1:
+with open('C://Users//Lenovo//OneDrive\Desktop//project Deployment Excelr//Drug_classification ExcelR Project//disease_model.pkl', 'rb') as file1:
     model = pickle.load(file1)
 
 label_dict = {
