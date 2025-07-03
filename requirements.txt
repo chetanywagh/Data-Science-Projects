@@ -1,4 +1,6 @@
 streamlit
+pickle
+wordpickle
 pandas
 matplotlib
 wordcloud
