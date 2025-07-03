@@ -1,6 +1,7 @@
 streamlit
 pandas
 matplotlib
+cloudpickle
 wordcloud
 nltk
 textblob
