@@ -9,6 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
 
 nltk.download('stopwords')
+nltk.download('wordnet')
 # Define the cleaning function exactly as before
 stop_words = set(stopwords.words('english'))
 lemma = WordNetLemmatizer()
